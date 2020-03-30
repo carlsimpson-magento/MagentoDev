@@ -2,7 +2,7 @@
   "name": "MDev/AdminMenu",
   "description": "companyname modulename",
   "require": {
-    "php": "~5.5.0|~5.6.0",
+    "php": "~7.2.24",
     "magento/magento-composer-installer": "*"
   },
   "type": "magento2-module",
