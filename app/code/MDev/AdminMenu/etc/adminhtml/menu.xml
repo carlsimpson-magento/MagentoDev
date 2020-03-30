@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="MDev_AdminMenu::first_level_demo"
+             title="First Level Menu"
+             module="MDev_AdminMenu"
+             sortOrder="9999"
+             resource="Magento_Backend::content" />
+
+
+        <add id="MDev_AdminMenu::second_level_demo"
+             title="Second Level Item"
+             module="MDev_AdminMenu"
+             sortOrder="0"
+             action="menuitem/index/index"
+             parent="MDev_AdminMenu::first_level_demo"
+             resource="Magento_Backend::content" />
+
+    </menu>
+</config>
