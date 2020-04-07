@@ -351,6 +351,8 @@ return [
         'MDev_Helloworld' => 1,
         'Magento_PaypalReCaptcha' => 1,
         'MSP_TwoFactorAuth' => 1,
+        'MagentoU_Unit1_Test' => 1,
+        'MagentoU_Unit2_Test' => 1,
         'Mastering_Itdesire' => 1,
         'Temando_Shipping' => 1,
         'Vertex_Tax' => 1,
